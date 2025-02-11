@@ -1,3 +1,3 @@
 # Git projekt
 
-## Git tanuláshoz indított projekt első változás
+## Git tanuláshoz indított projekt első változás volt
