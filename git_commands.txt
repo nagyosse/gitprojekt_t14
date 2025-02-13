@@ -1,0 +1,10 @@
+git config --list
+git config --list --show-origin
+git init
+git status 
+git add <filename>
+git commit 
+git commit -m "helyesirási hibák javítása"
+git diff --cached
+git restore --staged proba_masolata_1.txt
+git restore  proba_masolata_1.txt 

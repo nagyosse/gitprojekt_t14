@@ -1,0 +1,7 @@
+# build files
+*.class
+*.jar
+target/
+#rejtett fájlok kivée a git ignore
+.* 
+!.gitignore
