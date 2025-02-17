@@ -8,3 +8,12 @@ git commit -m "helyesirási hibák javítása"
 git diff --cached
 git restore --staged proba_masolata_1.txt
 git restore  proba_masolata_1.txt 
+git log
+git log --patch
+git log --stat
+git log --graph
+git log --pretty=oneline
+git log --pretty=fuller
+git log --pretty=format:"%h %s"
+git log --since=2.hours
+git log --pretty=oneline --grep 3
