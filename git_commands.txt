@@ -1,13 +1,27 @@
 git config --list
 git config --list --show-origin
+
+### initial
 git init
+
+## status
 git status 
+
+###add stage
 git add <filename>
+
+### commit
 git commit 
 git commit -m "helyesirási hibák javítása"
+
+### differencia
 git diff --cached
+
+### restore
 git restore --staged proba_masolata_1.txt
 git restore  proba_masolata_1.txt 
+
+### log
 git log
 git log --patch
 git log --stat
@@ -17,3 +31,31 @@ git log --pretty=fuller
 git log --pretty=format:"%h %s"
 git log --since=2.hours
 git log --pretty=oneline --grep 3
+git log -s string --pretty
+
+### tag
+git tag -a v1.0 -m "1 vrezio"
+git log
+git tag
+git tag --list "v1.*"
+git tag maci
+git tag beta 7199631
+git tag -d maci
+git show
+git show v1.0
+
+### checkout korábbi állapot vissza léptetése
+git checkout v1.0
+git checkout 7199631
+git checkout master
+
+
+### távoli clone git hubon létező repo!
+git clone https://github.com/nagyosse/TanulUdemy.git
+git push
+# lehozza
+git pull
+
+### távoli clone saját gépről
+
+
