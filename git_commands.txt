@@ -55,7 +55,13 @@ git clone https://github.com/nagyosse/TanulUdemy.git
 git push
 # lehozza
 git pull
+git remote -v
+
 
 ### távoli clone saját gépről
-
-
+### létrehozol egy üres adatbázist a github-on
+git remote add origin https://github.com/nagyosse/gitprojekt_t14.git
+git push
+## fatal error
+git push --set-upstream origin master
+git remote show origin
