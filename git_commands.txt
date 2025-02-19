@@ -65,3 +65,20 @@ git push
 ## fatal error
 git push --set-upstream origin master
 git remote show origin
+git push --tags
+
+### branch fejlesztési ágak
+git branch
+git branch feladat
+git log --pretty=oneline
+git checkout feladat
+git status 
+git add .
+git commit -m "első feladat"
+git log --pretty=oneline
+git checkout master
+git branch -v 
+git checkout -b valami ##létre is hozza az adott branch-et
+git switch -c  <branch név> ##létre is hozza az adott branch-et
+git branch -d  <branch név> ## branch törlése
+
