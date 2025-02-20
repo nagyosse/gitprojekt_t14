@@ -86,3 +86,19 @@ git branch -d  <branch név> ## branch törlése
 git checkout -b feladat1
 git log --pretty=oneline
 git commit -m "fast-forward merge esetére"
+git commit -am "fast-forward merge esetére 1"
+
+#merge
+git checkout master
+git merge feladat1
+
+##tree way merge
+git branch feladat2 fa9ba7aa
+git log --pretty=oneline
+git commit -am "tree way merge esetre példa"
+git log --pretty=oneline --all --graph
+
+# merge
+git checkout master
+git merge feladat2
+
