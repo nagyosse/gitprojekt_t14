@@ -82,3 +82,7 @@ git checkout -b valami ##létre is hozza az adott branch-et
 git switch -c  <branch név> ##létre is hozza az adott branch-et
 git branch -d  <branch név> ## branch törlése
 
+## branch merge fast-forward merge
+git checkout -b feladat1
+git log --pretty=oneline
+git commit -m "fast-forward merge esetére"
